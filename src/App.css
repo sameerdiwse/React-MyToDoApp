@@ -41,4 +41,16 @@ h1{
   border-radius: 20px;
   width: 500px;
   padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions > button{
+  background-color: rgb(233, 66, 66);
+  color: white;
+  height: 30px;
+  width: 75px;
+  border-radius: 20px;
+  font-size: 1.05rem;
+  margin-left: 8px;
 }
