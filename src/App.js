@@ -10,6 +10,12 @@ function App() {
         <input type="text"></input>
         <button>+</button>
       </div>
+
+      <div className="container">
+        <div className="todo">
+          <p>Build React App!</p>
+        </div>
+      </div>
     </main>
    );
 }
