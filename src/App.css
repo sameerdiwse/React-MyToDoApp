@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(86, 86, 206);
+}
+
+h1{
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container > input {
+  width: 300px;
+  height: 30px;
+  font-size: 1.3rem;
+}
+
+.input-container > button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: rgb(218, 109, 109);
+  margin-top: 15px;
+}
