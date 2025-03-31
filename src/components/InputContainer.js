@@ -1,11 +1,11 @@
 import React from 'react'
 
-function InputContainer()
+function InputContainer({inputValue, writeToDo, todos})
 {
     return (
         <div className="input-container">
-        <input type="text"></input>
-        <button>+</button>
+        <input type="text" value={inputValue} onChange={writeToDo}></input>
+        <button onClick={todos}>+</button>
       </div>
     );
 }

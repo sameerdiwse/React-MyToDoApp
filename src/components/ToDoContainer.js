@@ -1,14 +1,15 @@
-function ToDoContainer()
+import React from "react";
+import ToDo from "./ToDo";
+
+function ToDoContainer({todos, delTodo})
 {
     return (
         <div className="container">
-        <div className="todo">
-          <p>Build React App!</p>
-          <div className='actions'>
-            <input type='checkbox'></input>
-            <button>Delete</button>
-          </div>
-        </div>
+        {todos.map((todo, toDoIndex) => {
+        return(
+            <ToDo todo={todo} toDoIndex={toDoIndex} delTodo={delTodo}/>
+        )
+        })}
       </div>
     )
 }
